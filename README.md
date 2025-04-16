@@ -1,66 +1,26 @@
-## Foundry
-
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
+### Happy SVG
+```
+data:image/svg+xml;base64,
+PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIHhtbG5z
+PSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPCEtLSBGYWNlIC0tPgogIDxjaXJjbGUg
+Y3g9IjEwMCIgY3k9IjEwMCIgcj0iOTAiIGZpbGw9InllbGxvdyIgc3Ryb2tlPSJibGFjayIgc3Ry
+b2tlLXdpZHRoPSI4Ii8+CgogIDwhLS0gRXllcyAtLT4KICA8Y2lyY2xlIGN4PSI2NSIgY3k9Ijc1
+IiByPSIxMCIgZmlsbD0iYmxhY2siLz4KICA8Y2lyY2xlIGN4PSIxMzUiIGN5PSI3NSIgcj0iMTAi
+IGZpbGw9ImJsYWNrIi8+CgogIDwhLS0gU21pbGUgLS0+CiAgPHBhdGggZD0iTTYwIDEyMCBRMTAw
+IDE2MCAxNDAgMTIwIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjgiIGZpbGw9InRyYW5z
+cGFyZW50IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==
 ```
 
-### Test
 
-```shell
-$ forge test
+### Sad SVG
 ```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+data:image/svg+xml;base64,
+PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIHhtbG5z
+PSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPCEtLSBGYWNlIC0tPgogIDxjaXJjbGUg
+Y3g9IjEwMCIgY3k9IjEwMCIgcj0iOTAiIGZpbGw9InllbGxvdyIgc3Ryb2tlPSJibGFjayIgc3Ry
+b2tlLXdpZHRoPSI4Ii8+CgogIDwhLS0gRXllcyAtLT4KICA8Y2lyY2xlIGN4PSI2NSIgY3k9Ijc1
+IiByPSIxMCIgZmlsbD0iYmxhY2siLz4KICA8Y2lyY2xlIGN4PSIxMzUiIGN5PSI3NSIgcj0iMTAi
+IGZpbGw9ImJsYWNrIi8+CgogIDwhLS0gU2FkIE1vdXRoIC0tPgogIDxwYXRoIGQ9Ik02MCAxNDAg
+UTEwMCAxMDAgMTQwIDE0MCIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSI4IiBmaWxsPSJ0
+cmFuc3BhcmVudCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=
 ```
